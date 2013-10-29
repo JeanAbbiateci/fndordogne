@@ -1,9 +1,11 @@
+
  <html>
 <head>
-	<title>Le poids du FN en Dordogne</title>
+	<title>Passion dataviz - Le poids du FN en Dordogne</title>
 	<meta charset="utf-8" />
   
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="http://data.passiondataviz.fr/i/favicon64.ico" TYPE="image/x-icon" />
 
 	<link rel="stylesheet" href="http://data.passiondataviz.fr/js/leaflet.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="http://leafletjs.org/dist/leaflet.ie.css" /><![endif]-->
@@ -52,11 +54,11 @@
 
 		}
         .leaflet-bar a.leaflet-control-touchhover-toggle {
-			background-image:url("http://raw.github.com/pierrebrt/fndordogne/master/empreinte_non.png");
+			background-image:url("http://data.passiondataviz.fr/i/empreinte_non.png");
             background-size: 90% 90%;
    		}
 		.leaflet-bar a.leaflet-control-touchhover-toggled {
-			background-image:url("http://raw.github.com/pierrebrt/fndordogne/master/empreinte.png");
+			background-image:url("http://data.passiondataviz.fr/i/empreinte.png");
             background-size: 90% 90%;
 		}
 .ui-menu {
@@ -110,11 +112,11 @@
   </div>
   	<div id="map"></div>
 
-  	<script src="https://raw.github.com/pierrebrt/fndordogne/master/js/jquery.min.js"></script>
-	<script src="http://raw.github.com/pierrebrt/fndordogne/master/js/jquery-ui.min.js"></script>
-    <script src="http://raw.github.com/pierrebrt/fndordogne/master/js/leaflet.js"></script>
-	<script type="text/javascript" src="http://raw.github.com/pierrebrt/fndordogne/master/js/Control.TouchHover.js"></script>
-	<script type="text/javascript" src="http://raw.github.com/pierrebrt/fndordogne/master/fndordogne.geojson"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+    <script src="http://data.passiondataviz.fr/js/leaflet.js"></script>
+	<script type="text/javascript" src="http://data.passiondataviz.fr/js/Control.TouchHover.js"></script>
+	<script type="text/javascript" src="http://data.passiondataviz.fr/geojson/fndordogne.geojson"></script>
 	<script type="text/javascript">
 
          var map = new L.Map('map', {
